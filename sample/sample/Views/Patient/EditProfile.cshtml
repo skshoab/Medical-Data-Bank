@@ -1,0 +1,86 @@
+﻿@model DataLayer.Patient
+
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_layout_after_login.cshtml";
+}
+
+<h2>EditProfile</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Patient</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.password)
+            @Html.ValidationMessageFor(model => model.password)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Phone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Phone)
+            @Html.ValidationMessageFor(model => model.Phone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Age)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Age)
+            @Html.ValidationMessageFor(model => model.Age)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Symptomps)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Symptomps)
+            @Html.ValidationMessageFor(model => model.Symptomps)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DoctorId)
+        </div>
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.DoctorId, (IEnumerable<SelectListItem>)ViewBag.Doctors)
+            <!-- No Validation Message is required -->
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+<!--
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+
+-->

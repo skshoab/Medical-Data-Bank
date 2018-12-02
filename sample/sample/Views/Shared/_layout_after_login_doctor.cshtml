@@ -1,0 +1,64 @@
+﻿<table width="100%" cellspacing="0" cellpadding="10" border="1">
+    <tr>
+        <td colspan="2" valign="middle" height="70">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <a href="account/dashboard.html" target="contentFrame">
+                            <img height="48" src="/images/logo.jpg">
+                        </a>
+                    </td>
+                    <td align="right">
+                        Logged in as <a href="account/profile.html" target="contentFrame">Bob</a>&nbsp;|
+                        <a href="../index.html">Logout</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td width="200" valign="top">
+            <b>&nbsp;My Account</b><hr />
+            <ul>
+                <li><a href="/Doctor/GetPatient">Patient Details</a></li>
+                <li><a href="account/profile.html">View Profile</a></li>
+                <li><a href="account/edit_profile.html">Edit Profile</a></li>
+                <li><a href="account/picture.html">Change Profile Picture</a></li>
+                <li><a href="account/change_password.html">Change Password</a></li>
+                <li><a href="../index.html">Logout</a></li>
+            </ul>
+
+            <!-- ADVANCED FEATURES
+
+            <hr /><b>&nbsp;User</b><hr />
+            <ul>
+                <li><a href="user/search.html" target="contentFrame">Search</a></li>
+                <li><a href="user/create.html" target="contentFrame">Create New</a></li>
+            </ul>
+            <hr /><b>&nbsp;Report</b><hr />
+            <ul>
+                <li>User Reports
+                    <ul>
+                        <li><a href="report/user/statistics_report.html">Statistics Report</a></li>
+                        <li><a href="report/user/activity_report.html">Activity Report</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            ADVANCED FEATURES END HERE
+            -->
+
+        </td>
+        <td valign="top">
+
+            @RenderBody()
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            Copyright &copy; 2017
+        </td>
+    </tr>
+</table>

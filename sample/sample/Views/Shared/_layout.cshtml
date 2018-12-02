@@ -1,0 +1,44 @@
+﻿@System.Web.Optimization.Styles.Render("~/Content/hey")
+<html>
+    <head>
+       <link rel="stylesheet" href="/Content/bootstrap.css">
+       <link rel="stylesheet" href="/Content/main.css">
+    </head>
+<body>
+    <table width="100%" align="center" cellspacing="0" cellpadding="10" border="1">
+        <tr>
+            <td valign="middle" height="70">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <a href="/Home/Index">
+                                <img height="88" src="/images/logo.jpg">
+                            </a>
+                        </td>
+                        <td align="right">
+                            <a href="/Home/Index">Home</a>&nbsp;|
+                            <a href="/Patient/Login">Login-Patient</a>&nbsp;|
+                            <a href="/Doctor/Login">Login-Doctor</a>&nbsp;|
+                            <a href="/Home/Registration">Registration</a>&nbsp;|
+                            <a href="/Admin/Login">Admin-Login</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <br />
+
+                @RenderBody()
+
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                Copyright &copy; 2017
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿@model DataLayer.Patient
+
+@{
+    ViewBag.Title = "Details";
+}
+<link rel="stylesheet" href="/Content/bootstrap.css">
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Patient</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.password)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.password)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Phone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Phone)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Age)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Age)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Symptomps)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Symptomps)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DoctorId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DoctorId)
+    </div>
+</fieldset>
+<p>
+    
+    @Html.ActionLink("Back to List", "UserList")
+</p>

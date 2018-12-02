@@ -1,0 +1,74 @@
+﻿@model DataLayer.Patient
+<html>
+    <head>
+        <link rel="stylesheet" href="/Content/bootstrap.css">
+        <link rel="stylesheet" href="/Content/main.css">
+    </head>
+    <body>
+
+               <table width="100%" cellspacing="0" cellpadding="10" border="1">
+                  
+                   
+                   <tr>
+                       <td>
+                           <a href="account/dashboard.html" target="contentFrame">
+                               <img height="48" src="/images/logo.jpg">
+                           </a>
+                       </td>
+                       <td class="topnav" id="myTopnav">
+
+                           <a href="/Patient/DashBoard">@Html.DisplayFor(model => model.Name)</a>
+                           <a href="/Patient/Logout">Ask Doctor</a>
+                           <a href="/Patient/Logout">Logout</a>
+                       </td>
+                   </tr>
+                       <tr>
+                           <td width="200" valign="top">
+                               <b>&nbsp;My Account</b><hr />
+                               <ul>
+                                   <li><a href="/Patient/Dashboard">Dashboard</a></li>
+                                   <li><a href="/Patient/Dashboard">View Profile</a></li>
+                                   <li>@Html.ActionLink("Edit Profile", "EditProfile", "Patient", new { id = Model.Id }, null)</li>
+                                   <li><a href="account/change_password.html">Change Password</a></li>
+                                   <li><a href="/Patient/Up">Upload Prescription</a></li>
+                                   <li><a href="/Patient/GetPrescritpion">See Prescription</a></li>
+                                   <!--<li><a href="../index.html">Logout</a></li>-->
+                               </ul>
+
+                               <!-- ADVANCED FEATURES
+
+                <hr /><b>&nbsp;User</b><hr />
+                <ul>
+                    <li><a href="user/search.html" target="contentFrame">Search</a></li>
+                    <li><a href="user/create.html" target="contentFrame">Create New</a></li>
+                </ul>
+                <hr /><b>&nbsp;Report</b><hr />
+                <ul>
+                    <li>User Reports
+                        <ul>
+                            <li><a href="report/user/statistics_report.html">Statistics Report</a></li>
+                            <li><a href="report/user/activity_report.html">Activity Report</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                ADVANCED FEATURES END HERE
+                -->
+
+                           </td>
+                           <td valign="top">
+
+                               @RenderBody()
+
+                           </td>
+                       </tr>
+                       <tr>
+                           <td colspan="2" align="center">
+                               Copyright &copy; 2017
+                           </td>
+                       </tr>
+</table>
+        </body>
+       
+</html>

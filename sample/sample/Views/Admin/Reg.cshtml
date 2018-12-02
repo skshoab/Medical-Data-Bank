@@ -1,0 +1,81 @@
+﻿@model DataLayer.Patient
+
+@{
+    ViewBag.Title = "Reg";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<fieldset>This is message box</fieldset>
+<br />
+<fieldset>
+    <legend><b>REGISTRATION</b></legend>
+    <form method="post">
+        <br />
+        <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="130"></td>
+                <td width="10"></td>
+                <td width="230"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>@Html.EditorFor(model => model.Name)</td>
+                <td></td>
+            </tr>
+            <tr><td colspan="4"><hr /></td></tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>
+                    @Html.EditorFor(model => model.Email)
+                    <abbr title="hint: sample@example.com"><b>i</b></abbr>
+                </td>
+                <td></td>
+            </tr>
+            <tr><td colspan="4"><hr /></td></tr>
+            <tr>
+                <td>Phone</td>
+                <td>:</td>
+                <td>@Html.EditorFor(model => model.Phone)</td>
+                <td></td>
+            </tr>
+            <tr><td colspan="4"><hr /></td></tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>@Html.EditorFor(model => model.password)</td>
+                <td></td>
+            </tr>
+            <tr><td colspan="4"><hr /></td></tr>
+            <tr>
+                <td>Age</td>
+                <td>:</td>
+                <td>@Html.EditorFor(model => model.Age)</td>
+                <td></td>
+            </tr>
+            <tr><td colspan="4"><hr /></td></tr>
+            <tr>
+                <td>Symptomps</td>
+                <td>:</td>
+                <td>
+                    @Html.EditorFor(model => model.Symptomps)
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>DoctorId</td>
+                <td>:</td>
+                <td>
+                   @Html.DropDownListFor(model => model.DoctorId, (IEnumerable<SelectListItem>)ViewBag.Doctors)
+                </td>
+                <td></td>
+            </tr>
+            
+        </table>
+        <hr />
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</fieldset>

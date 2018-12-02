@@ -1,0 +1,68 @@
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\sample.dll.config
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\sample.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\sample.pdb
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\DataLayer.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\EntityFramework.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\EntityFramework.SqlServer.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\Microsoft.Web.Infrastructure.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\Newtonsoft.Json.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Net.Http.Formatting.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Helpers.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Http.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Http.WebHost.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Mvc.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Razor.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.WebPages.Deployment.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.WebPages.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.WebPages.Razor.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\DataLayer.pdb
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\EntityFramework.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\EntityFramework.SqlServer.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\Newtonsoft.Json.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Net.Http.Formatting.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Helpers.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Http.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Http.WebHost.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Mvc.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.Razor.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.WebPages.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.WebPages.Deployment.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\bin\System.Web.WebPages.Razor.xml
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\obj\Debug\sample.csprojResolveAssemblyReference.cache
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\obj\Debug\sample.dll
+c:\users\fahad\documents\visual studio 2013\Projects\sample\sample\obj\Debug\sample.pdb
+D:\sample\sample\bin\sample.dll.config
+D:\sample\sample\bin\sample.dll
+D:\sample\sample\bin\sample.pdb
+D:\sample\sample\bin\DataLayer.dll
+D:\sample\sample\bin\EntityFramework.dll
+D:\sample\sample\bin\EntityFramework.SqlServer.dll
+D:\sample\sample\bin\Microsoft.Web.Infrastructure.dll
+D:\sample\sample\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\sample\sample\bin\Newtonsoft.Json.dll
+D:\sample\sample\bin\System.Net.Http.Formatting.dll
+D:\sample\sample\bin\System.Web.Helpers.dll
+D:\sample\sample\bin\System.Web.Http.dll
+D:\sample\sample\bin\System.Web.Http.WebHost.dll
+D:\sample\sample\bin\System.Web.Mvc.dll
+D:\sample\sample\bin\System.Web.Razor.dll
+D:\sample\sample\bin\System.Web.WebPages.Deployment.dll
+D:\sample\sample\bin\System.Web.WebPages.dll
+D:\sample\sample\bin\System.Web.WebPages.Razor.dll
+D:\sample\sample\bin\DataLayer.pdb
+D:\sample\sample\bin\EntityFramework.xml
+D:\sample\sample\bin\EntityFramework.SqlServer.xml
+D:\sample\sample\bin\Newtonsoft.Json.xml
+D:\sample\sample\bin\System.Net.Http.Formatting.xml
+D:\sample\sample\bin\System.Web.Helpers.xml
+D:\sample\sample\bin\System.Web.Http.xml
+D:\sample\sample\bin\System.Web.Http.WebHost.xml
+D:\sample\sample\bin\System.Web.Mvc.xml
+D:\sample\sample\bin\System.Web.Razor.xml
+D:\sample\sample\bin\System.Web.WebPages.xml
+D:\sample\sample\bin\System.Web.WebPages.Deployment.xml
+D:\sample\sample\bin\System.Web.WebPages.Razor.xml
+D:\sample\sample\obj\Debug\sample.csprojResolveAssemblyReference.cache
+D:\sample\sample\obj\Debug\sample.dll
+D:\sample\sample\obj\Debug\sample.pdb

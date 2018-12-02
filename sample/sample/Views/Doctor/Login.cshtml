@@ -1,0 +1,79 @@
+﻿@model DataLayer.Doctor
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+    @using (Html.BeginForm("AfterLogin", "Doctor", FormMethod.Post))
+    {
+
+        <table>
+            <tr>
+                <td></td>
+                <td style="text-decoration:underline"> Login </td>
+            </tr>
+
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.email)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.email)
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.email)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.password)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.password)
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.password)
+                </td>
+            </tr>
+
+            <tr>
+
+                <td></td>
+                <td colspan="2" class=>
+                    <label class="field-validation-error">@TempData["Err"]</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+
+            </tr>
+        </table>
+    }
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

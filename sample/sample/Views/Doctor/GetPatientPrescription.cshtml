@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DataLayer.Image>
+
+@{
+    ViewBag.Title = "GetPatientPrescritpion";
+}
+
+<h2>GetPrescritpion</h2>
+
+<fieldset>
+    <legend>Image</legend>
+
+
+
+
+    @foreach (DataLayer.Image img in Model)
+    {
+        <tr>
+
+            <td class="display-field">
+                @img.Title
+            </td>
+            <td>
+                <img src="@Url.Content(img.Path)" width="250" height="250" multiple />
+            </td>
+            <td class="display-label">
+                Patient ID
+            </td>
+            <td class="display-field">
+                @img.PatientId)
+            </td>
+
+
+        </tr>
+    }
+
+
+
+
+</fieldset>
+

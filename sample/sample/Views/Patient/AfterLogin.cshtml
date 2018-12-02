@@ -1,0 +1,42 @@
+﻿@model DataLayer.Patient
+
+@{
+    ViewBag.Title = "AfterLogin";
+    Layout = "~/Views/Shared/_layout_after_login.cshtml";
+
+    if (Session["PATIENT"] == null)
+    {
+        Response.Redirect("~/Patient/Login" ,false);
+    }
+}
+
+
+    <table align="left">
+    <tr>
+        
+        <td style = "text-decoration:underline">Info </td>
+    </tr>
+
+    <tr>
+        <td>
+            Name:
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Name)
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            Email:
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Email)
+        </td>
+
+    </tr>
+
+
+</table>
+
+
